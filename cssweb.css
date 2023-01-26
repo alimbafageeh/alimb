@@ -1,0 +1,124 @@
+body
+{
+	color:#800020;
+	font-family:Verdana; 
+	background-color:#D9B382; 
+}
+
+header,footer
+{
+	font-style:italic;
+	text-decoration:underline;
+	text-decoration-color:#800020;
+	color:#D9B382;
+	background-color:#585858; 
+	text-align:center;
+}
+
+@media screen
+{
+	@media (min-width:992px) 
+	{
+		body
+		{
+			background-color: #D9B382;
+		}
+	}
+	@media (max-width:768px)
+	{
+		body
+		{
+			background-color: black;
+		}
+	}
+	@media (max-width:576px)
+	{
+		body
+		{
+			background-color: yellow;
+			color: black;
+		}
+	}
+
+}
+
+#leftcolumn 
+{
+	background-color:unset;
+	float:left; 
+	width:300px; 
+	padding-top:10px
+} 
+
+.floatleft
+{
+	padding-right:40px;
+	float:left;
+	margin:unset;
+	display: inline-block;
+}
+
+#centercolumn 
+{
+	background-color:unset;
+	width:300px; 
+	padding-top:unset;
+} 
+#centercolumn h2{text-decoration:underline; text-decoration-color:#585858;}
+
+.floatcenter
+{
+	padding-left:150px;
+	display:inline-block;
+	background-color:#E8D882;
+	text-align: left;
+}
+
+#rightcolumn 
+{
+	background-color:unset;
+	float:right; 
+	width:300px; 
+	padding-top:unset;
+} 
+#rightcolumn h2{text-decoration:underline; text-decoration-color:#585858;}
+
+.floatright
+{
+	padding-right:40px;
+	float:right;
+	margin:unset;
+	display: inline-block;
+}
+
+#Objective
+{
+	background-color:#585858;
+	color:#D9B382;
+	display:inline-block;
+	text-align: center;
+}
+#Objective h2{text-decoration:underline; text-decoration-color:#800020;}
+
+#Certifications
+{
+	background-color:#585858;
+	color:#D9B382;
+	display: block;
+	text-align: center;
+}
+#Certifications h2{text-decoration:underline; text-decoration-color:#800020;}
+#Certifications h4{display:inline;}
+#Certifications h6{display:inline;}
+
+#Projects
+{
+	background-color:#585858;
+	color:#D9B382;
+	display:block;
+	text-decoration:underline;
+	text-decoration-color:#800020;
+}
+#Projects h4{text-decoration:underline; text-decoration-color:#800020;}
+#Projects h2{text-align: center;}
+#Projects div{display: inline-block; width: 30%;}
